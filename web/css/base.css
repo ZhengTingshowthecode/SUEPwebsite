@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* 消除默认样式，  清除公共样式  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}

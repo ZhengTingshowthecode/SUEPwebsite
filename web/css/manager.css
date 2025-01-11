@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+.left {
+    background-color: #60b036;
+    width: 15%;
+    height: 100vh;
+}
+.menu_item {
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 10px;
+}
+.newsType {
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.left ul li a h2 {
+    font-size: 23px;
+    color: white;
+}
+.left ul li a h3 {
+    font-size: 16px;
+    color: white;
+}
+
+.right {
+    width: 85%;
+}

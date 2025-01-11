@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*  头部   */
+.header {
+    position: relative;
+    display: flex;
+    height: 100px;
+    background-color: rgb(21, 144, 96);
+}
+.header .logoContainer {
+    width: 706px;
+    height: 70px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.header .logoContainer .logo1 {
+    width: 70px;
+    height: 70px;
+    background-image: url("../image/LOGO.png");
+    display: block;
+    /* 隐藏文字 */
+    font-size: 0;
+}
+.header .logoContainer .logo2 {
+    height: 70px;
+    width: 206px;
+    background-image: url("../image/nameLOGO.png");
+    display: block;
+    font-size: 0;
+}
+
+/*  尾部  */
+.footer {
+    display: flex;
+    height: 220px;
+    background-color: rgb(41, 57, 91);
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.footer .phone ul li p {
+    color: white;
+    font-size: 18px;
+}
+.footer .address {
+    margin-left: 50px;
+}
+.footer .address ul li {
+    color: white;
+    font-size: 18px;
+}
+.footer .pic {
+    margin-left:50px;
+}
+.footer .pic2 {
+    margin-left: 50px;
+}

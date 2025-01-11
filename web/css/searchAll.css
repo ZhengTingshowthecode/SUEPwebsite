@@ -1,0 +1,50 @@
+.container {
+    height: 1200px;
+    width: 100vw;
+    padding-left: 80px;
+}
+.container .banner {
+    width: 1182px;
+    height: 295px;
+    background: url("../image/bannernew1.jpg") no-repeat;
+    font-size: 0;
+}
+.container .middle {
+    display: flex;
+    width: 1182px;
+    height: 850px;
+}
+.container .middle .left {
+    width: 220px;
+    height: 220px;
+}
+.container .middle .left ul li {
+    border-bottom: 1px solid darkgrey;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+}
+.container .middle .right {
+    width: 962px;
+    height: 848px;
+}
+.container .middle .right ul li {
+    height: 106px;
+    border-bottom: 1px solid darkgrey;
+}
+.container .middle .right .page {
+    height: 50px;
+    background-color: darkgray;
+    position: relative;
+}
+.container .middle .right .page ul {
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+}
+.container .middle .right .page ul li {
+    margin-right: 15px;
+    height: 50px;
+}

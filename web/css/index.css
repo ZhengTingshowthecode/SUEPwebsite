@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+.banner {
+    height: 500px;
+    width: 1355px;
+    position: relative;
+}
+/* 轮播图 */
+.banner .pics {
+    overflow: hidden;
+    width: 1080px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(45%) translateY(-50%);
+}
+.banner .pic {
+    display: flex;
+}
+/* 切换 */
+.banner .circle {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+}
+.banner .circle li {
+    margin-left: 8px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner .circle li i {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 4px;
+}
+.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.banner .circle li:hover  {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.news {
+    height: 450px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.news .newsTop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 每行两个 */
+    gap: 750px; /* 网格间距 */
+    height: 100px;
+    width: 1080px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(49%);
+    border-bottom: 3px solid rgb(85, 161, 109);
+}
+.news .newsTop .left {
+    width: 149px;
+    height: 60px;
+    background-color: rgb(85, 161, 109);
+    border-radius: 10% 10%;
+}
+.news .newsTop .left h3 {
+    line-height: 60px;
+    color: white;
+    text-align: center;
+}
+.news .newsTop .right {
+    height: 60px;
+}
+.news .newsTop .right a span{
+    color: rgb(85, 161, 109);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.news .newsList {
+    height: 350px;
+    width: 1080px;
+    position: absolute;
+    right: 50%;
+    top: 100px;
+    transform: translateX(49%);
+    display: flex;
+}
+.news .newsList .list1 {
+    width: 450px;
+    height: 330px;
+    margin-top: 10px;
+    border: 1px solid #333333;
+}
+.news .newsList .list1 ul li {
+    border-bottom: 1px solid #333333;
+}
+.news .newsList .list1 ul li a span {
+    line-height: 22px;
+}
+.news .newsList .list2 {
+    width: 780px;
+    height: 330px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.news .newsList .list2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.news .newsList .list2 ul li {
+    width: 304px;
+    height: 300px;
+    border: 1px solid #333333;
+}
+
+
+.boxes {
+    padding-left:80px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 每行两个 */
+    gap: 20px; /* 网格间距 */
+}
+.title {
+    height: 50px;
+    position: relative;
+    display: flex;
+    background-color: rgb(85, 161, 109);
+    border-bottom: 1px solid #333333;
+}
+.title .left {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+.title .left h3 {
+    font-size: 23px;
+    color: white;
+    margin-right: 35px;
+    line-height: 50px;
+}
+.title .right {
+    position: absolute;
+    right: 10px;
+}
+.title .right a span {
+    color : white;
+    line-height: 50px;
+}
+.bd ul a {
+    display: block;
+    border-bottom: 1px solid #333333;
+    height: 36px;
+}
+
+.jiaowutongzhi {
+    height: 300px;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+}
+.tongzhigonggao {
+    height: 300px;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+}
+.yanjiusheng {
+    height: 300px;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+}
+.jiangzuo {
+    height: 300px;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+}
+.xueshenggongzuo {
+    height: 300px;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+}
+.zhaopin {
+    height: 300px;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+}
+
+
+.nav {
+    height: 70px;
+    background-color: #F5F5F5;
+}
+.nav ul {
+    display: flex;
+    padding-top: 30px;
+    margin-left: 10%;
+}
+.nav ul li {
+    margin-right: 20px;
+}
+.nav ul li a:hover {
+    color: #5EB69C;
+}

@@ -1,0 +1,22 @@
+.container {
+    height: 1000px;
+    width: 100vw;
+    padding-left: 80px;
+}
+.container .banner {
+    width: 1182px;
+    height: 295px;
+    background: url("../image/bannernew1.jpg") no-repeat;
+    font-size: 0;
+}
+.container .middle {
+    position: relative;
+    display: flex;
+    width: 1182px;
+    height: 750px;
+}
+.container .middle .form1 {
+    position: absolute;
+    top: 25px;
+    left: 15%;
+}

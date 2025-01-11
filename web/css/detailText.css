@@ -1,0 +1,19 @@
+.container .banner {
+    width: 1182px;
+    height: 295px;
+    background: url("../image/bannernew1.jpg") no-repeat;
+    font-size: 0;
+}
+/*
+.container {
+    height: 1200px;
+    width: 100vw;
+    padding-left: 80px;
+}
+.container .middle {
+    display: flex;
+    width: 1182px;
+    height: 850px;
+    background-color: pink;
+}
+*/

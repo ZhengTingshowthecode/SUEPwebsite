@@ -1,0 +1,76 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* 登录框居中（上下） */
+    align-items: center;
+    /* 登录框居中（左右） */
+    justify-content: center;
+    /* fixed 让背景图像不随页面滚动 */
+    background: url("../image/bg.jpg") fixed no-repeat;
+    /* 背景图片等比例缩放 */
+    background-size: cover;
+}
+.loginForm {
+    width: 340px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    background: inherit;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.loginForm::before {
+    content: "";
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    overflow: hidden;
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.25);
+    filter: blur(5px);
+    z-index: -1;
+}
+.loginForm .suep-logo {
+    width: 180px;
+    height: 45px;
+    margin-left: 60px;
+    background: url("../image/suep_logo.png") no-repeat;
+    /* 隐藏文字 */
+    font-size: 0;
+}
+.loginForm h2 {
+    color: white;
+    display: block;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.loginForm input, .loginForm button {
+    margin: 6px 0;
+    height: 36px;
+    width: 250px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0 24px; /* 让框内提示字里边框远点 */
+}
+.loginForm button {
+    display: block;
+    margin-top: 24px;
+    margin-left: 44px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.yzm {
+    margin-left: 120px;
+    width: 100px;
+    height: 50px;
+}
